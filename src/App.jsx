@@ -14,14 +14,14 @@ function App() {
   },{
     name: 'Discavar Kashmir & Ladak',
     date: '4 Days | 3 Nights',
-    image: '',
+    image: 'https://thumbs.dreamstime.com/z/zanskar-blue-river-where-leh-ladak-india-95570243.jpg',
     price: '32,579',
     discountPrice: '25,800',
     pickup: 'Sringar Airport',
   },{
     name: 'Munnar Thekkady Alleppey and Cherri Tour',
     date: '3 Days | 2 Nights',
-    image: '',
+    image: 'https://luxeglamp.com/wp-content/uploads/2023/02/luxeglamp-Projects-Munnar.jpg',
     price: '32,577',
     discountPrice: '25,800',
     pickup: 'Cochin Airport',

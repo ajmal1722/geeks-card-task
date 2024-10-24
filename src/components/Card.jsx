@@ -6,11 +6,11 @@ import Like from './Like';
 const Card = ({ card }) => {
 
     return (
-        <div className='p-4 rounded-2xl shadow-lg'>
+        <div className='p-4 rounded-2xl shadow-lg hover:scale-105 w-4/12'>
             <div className='relative'>
                 <img 
-                    src="https://plus.unsplash.com/premium_photo-1697730314165-2cd71dc3a6a4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bXVubmFyfGVufDB8fDB8fHww" alt="" 
-                    className='rounded-2xl'
+                    src={card.image} alt="" 
+                    className='rounded-2xl object-fill'
                 />
                 <div className='bg-white rounded-t-xl absolute bottom-0 right-7 flex gap-2 items-center px-3'>
                     <GiSandsOfTime className='text-red-600' />
