@@ -36,7 +36,7 @@ const Card = ({ card }) => {
                             Starts at
                         </p>
                         <div className='flex gap-3 mx-2 mb-1'>
-                            <h2 className='text-gray-400 mt-1 text-sm'>
+                            <h2 className='text-gray-400 mt-1 text-sm line-through'>
                                 ₹ {card.price}
                             </h2>
                             <h1 className='font-bold text-xl'>
