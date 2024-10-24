@@ -27,7 +27,7 @@ const Card = ({ card }) => {
                 <div className='flex gap-2 items-center'>
                     <RiFlightLandLine className='text-red-600' />
                     <p className='text-xs my-2'>
-                        Pickup: sample pickup
+                        Pickup: {card.pickup}
                     </p>
                 </div>
                 <div className='flex justify-between'>
@@ -37,10 +37,10 @@ const Card = ({ card }) => {
                         </p>
                         <div className='flex gap-3 mx-2 mb-1'>
                             <h2 className='text-gray-400 mt-1 text-sm'>
-                                ₹ 32,577
+                                ₹ {card.price}
                             </h2>
                             <h1 className='font-bold text-xl'>
-                                ₹25,800
+                                ₹ {card.discountPrice}
                             </h1>
                         </div>
                         <p className='text-gray-400 text-xs'>
