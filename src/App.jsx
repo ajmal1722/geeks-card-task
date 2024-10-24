@@ -9,6 +9,7 @@ function App() {
     name: 'Munnar Thekkady Alleppey and Kovalam Tour',
   },{
     name: 'Munnar Thekkady Alleppey and Kovalam Tour',
+    date: '4 Days | 3 Nights'
   },]
 
   return (
